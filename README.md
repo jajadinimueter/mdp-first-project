@@ -12,7 +12,7 @@ Dies aus folgenden Gründen:
  * Das Projekt ist eine Übung und darf darum durchaus öffentlich zugängig sein
  * Es muss kein eigener Server aufgesetzt werden, was Zeit und Kosten spart
 
-Als branching-Modell wird das von Vincent Driessen vorgeschlagene verwendet [1].
+Als branching-Modell wird das von Vincent Driessen vorgeschlagene verwendet ([Git-Branching-MOdel](http://nvie.com/posts/a-successful-git-branching-model/)).
 Das heisst, die Mitglieder der Gruppe entwicklen im develop branch. Sobald
 ein Release ready ist, wird der develop branch in den master gemerged und getagged.
 Nur hotfixes dürfen danach noch direkt in den master gepushed werden.
@@ -20,7 +20,7 @@ Nur hotfixes dürfen danach noch direkt in den master gepushed werden.
 CI
 --
 
-Für die CI wird travis verwendet [2].
+Für die CI wird [travis](https://travis-ci.org/) verwendet.
 
 Dieser Service ist gratis und lässt sich wunderbar zusammen mit github benutzen. Github hat sogar
 eine travis-Integration.
@@ -42,7 +42,4 @@ Deployment
 ----------
 
 TODO: define
-
-[1] http://nvie.com/posts/a-successful-git-branching-model/
-[2] https://travis-ci.org/
 
